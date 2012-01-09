@@ -1,0 +1,4 @@
+This is a very-nearly-pure-bash brainfuck interpreter. It depends externally on
+dd and xxd for the ',' command due to bash external command magic input handling
+with \0, \n, and spaces. Somebody more clever than me may be able to eliminate
+this dependency!
